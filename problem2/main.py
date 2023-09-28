@@ -1,5 +1,13 @@
 def pow(x, n):
-    return 0
+    Start = 1.0
+    if x > 0 :
+        for i in range (n) :
+            Start *= x
+    if n < 0 :
+        for i in range (-(n)) :
+            Bagi = 1/x
+            Start *= Bagi
+    return Start
 
 if __name__ == '__main__':
     print(pow(2, 3)) # 8
@@ -7,3 +15,4 @@ if __name__ == '__main__':
     print(pow(10, 5)) # 100000
     print(pow(17, 6)) # 24137569
     print(pow(5, 3)) # 125
+    

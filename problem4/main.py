@@ -1,5 +1,14 @@
 def muncul_sekali(angka):
-    return []
+    List = []
+    a = 0
+    for i in angka :
+        H = angka.count(i)
+        a += 1
+        if H == 2 :
+            print(end="")
+        else :
+            List.append(int(i))
+    return List
 
 if __name__ == '__main__':
     print(muncul_sekali("1234123")) # [4]
