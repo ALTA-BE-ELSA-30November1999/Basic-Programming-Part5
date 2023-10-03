@@ -1,3 +1,7 @@
+# FAST EXPONENTATION
+#Time Complexity O(N^2)
+#Space Complexity O(N)
+
 def pow(x, n):
     Start = 1.0
     if x > 0 :

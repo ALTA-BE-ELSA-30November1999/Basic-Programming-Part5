@@ -1,3 +1,7 @@
+# Bilangan Prima
+#Time Complexity O(N)
+#Space Complexity O(log N)
+
 def prime_number(number):
     prima = True
     a = 1

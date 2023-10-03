@@ -1,3 +1,7 @@
+# Join Array Remove Duplicate
+#Time Complexity O(N)
+#Space Complexity O(N)
+
 def join_array_remove_duplicate(arrayA, arrayB):
     List = list(arrayA)
     if len(arrayA) < len(arrayB) :

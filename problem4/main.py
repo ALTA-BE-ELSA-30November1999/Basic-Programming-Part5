@@ -1,3 +1,7 @@
+# Angka Muncul Sekali
+#Time Complexity O(N)
+#Space Complexity O(N)
+
 def muncul_sekali(angka):
     List = []
     a = 0

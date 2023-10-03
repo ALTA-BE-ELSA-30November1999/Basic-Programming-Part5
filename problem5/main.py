@@ -1,3 +1,7 @@
+#Pair with Target Sum
+#Time Complexity O(N^2)
+#Space Complexity O(N)
+
 def pair_sum(arr, target):
     pair_sum = []
 
